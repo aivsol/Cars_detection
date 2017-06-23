@@ -1,0 +1,9 @@
+import os
+import numpy as np
+
+fileObject = open("list_car.txt", "r")
+
+for line in fileObject:
+    #Read XML data for ground truth
+    fileXML = line[0:7]+".xml"
+    z=1
